@@ -1,0 +1,135 @@
+@media screen and (max-width: 1000px) {
+    .main-zone {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .h2 {
+        font-size: 40px;
+    }
+
+    .btn {
+    	width: 180px;
+    	height: 50px;
+    	font-size: 20px;
+    }
+
+    .main-zone {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    /* first screen */
+
+    .h2 {
+        font-size: 30px;
+    }
+
+    .btn {
+    	width: 120px;
+    	height: 40px;
+    	font-size: 15px;
+    }
+
+    /* second screen */
+
+    .current-player {
+        font-size: 18px;
+    }
+
+    /*game */
+
+    .main-zone {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .game-item {
+        font-size: 60px;
+    }
+
+    /* score */
+
+    .score {
+        width: 300px;
+    }
+
+    .score-text {
+        font-size: 20px;
+    }
+
+    .score-table {
+        font-size: 14px;
+    }
+
+    .score-table td {
+        width: 80px;
+    }
+
+    /* final block */
+
+    .final-text {
+        font-size: 30px;
+    }
+
+    .repeat-btn {
+    	width: 100px;
+    	height: 35px;
+    	font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    /* first screen */
+
+    .h2 {
+        font-size: 25px;
+    }
+
+    /* second screen */
+
+    .current-player {
+        font-size: 16px;
+    }
+
+    /*game */
+
+    .main-zone {
+        max-width: 280px;
+        max-height: 280px;
+    }
+
+    .game-item {
+        font-size: 45px;
+    }
+
+    /* score */
+
+    .score {
+        width: 240px;
+    }
+
+    .score-text {
+        font-size: 18px;
+    }
+
+    .score-table td {
+        width: 60px;
+    }
+
+    /* final block */
+
+    .final-text {
+        font-size: 25px;
+    }
+
+    .repeat-btn {
+    	width: 90px;
+    	height: 30px;
+    	font-size: 14px;
+    }
+}

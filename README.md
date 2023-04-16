@@ -8,8 +8,9 @@ Simple Tic-Tac-Toe game built using HTML, CSS, JavaScript.
 * The first player to place 3 marks in a vertically, horizontally or diagonally wins the game.
 * If all cells of the field are filled, the game ends in a draw.
 
-
 For more information about the game click [here](https://en.wikipedia.org/wiki/Tic-tac-toe)
+
+#### Demo is [here](https://scrnr.github.io/Tic-Tac-Toe-Js)
 
 ## Screenshots
 

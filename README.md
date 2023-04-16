@@ -31,3 +31,7 @@ For more information about the game click [here](https://en.wikipedia.org/wiki/T
 
 ## Author
 👤 GitHub: [scrnr](https://github.com/scrnr)
+
+## License
+
+This project is released under MIT License. Please review [the License file](https://github.com/scrnr/Tic-Tac-Toe-Js/blob/main/LICENSE) for more details.

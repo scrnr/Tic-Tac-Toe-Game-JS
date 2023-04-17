@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang='eu'>
-    <head>
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' href='css/style.css'>
-        <link rel='stylesheet' href='css/media.css'>
-        <title>Tic-Tac-Toe</title>
-    </head>
-    <body>
 
-            <div class='screen'>
-                <div class='container'>
-                    <div class='start-game'>
-                        <h2 class='h2'>Tic-Tac-Toe</h2>
-                        <button type='button' class='btn btn-start'>Start game</button>
-                    </div>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <link rel='stylesheet' href='assets/css/media.css'>
+    <link rel='apple-touch-icon' sizes='180x180' href='assets/favicon/apple-touch-icon.png'>
+    <link rel='icon' type='image/png' sizes='32x32' href='assets/favicon/favicon-32x32.png'>
+    <link rel='icon' type='image/png' sizes='16x16' href='assets/favicon/favicon-16x16.png'>
+    <link rel='manifest' href='assets/favicon/site.webmanifest'>
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+
+    <div class='screen'>
+        <div class='container'>
+            <div class='start-game'>
+                <h2 class='h2'>Tic-Tac-Toe</h2>
+                <button type='button' class='btn btn-start'>Start game</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='screen'>
+        <div class='container'>
+            <div class='top-row'>
+                <div class='current-player'>X Turn</div>
+            </div>
+
+            <div class='main-zone'>
+                <div class='game'></div>
+                <div class='final-block'>
+                    <h3 class='final-text'></h3>
+                    <button class='repeat-btn'>Repeat</button>
                 </div>
             </div>
 
-            <div class='screen'>
-                <div class='container'>
-                    <div class='top-row'>
-                        <div class='current-player'>X Turn</div>
-                    </div>
-
-                    <div class='main-zone'>
-                        <div class='game'></div>
-                        <div class='final-block'>
-                            <h3 class='final-text'></h3>
-                            <button class='repeat-btn'>Repeat</button>
-                        </div>
-                    </div>
-
-                    <div class='score'>
-                        <h3 class='score-text'>Score</h3>
-                        <table class='score-table'>
-                            <tr>
-                                <td class='score-title'>X</td>
-                                <td class='score-cross'>0</td>
-                                <td class='score-title'>O</td>
-                                <td class='score-zero'>0</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                </div>
+            <div class='score'>
+                <h3 class='score-text'>Score</h3>
+                <table class='score-table'>
+                    <tr>
+                        <td class='score-title'>X</td>
+                        <td class='score-cross'>0</td>
+                        <td class='score-title'>O</td>
+                        <td class='score-zero'>0</td>
+                    </tr>
+                </table>
             </div>
 
-        <script src='js/main.js'></script>
-    </body>
+        </div>
+    </div>
+
+    <script src='assets/js/main.js'></script>
+</body>
+
 </html>

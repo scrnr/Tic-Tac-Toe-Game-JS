@@ -10,7 +10,7 @@ Tic-Tac-Toe is a simple game for two players who take turns marking the spaces i
 
 For more information about the game click [here](https://en.wikipedia.org/wiki/Tic-tac-toe)
 
-#### Demo is [here](https://scrnr.github.io/Tic-Tac-Toe-Js)
+#### Demo is [here](https://scrnr.github.io/Tic-Tac-Toe-Game-JS/)
 
 ## Screenshots
 
